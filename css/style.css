@@ -28,6 +28,10 @@ header{
     border: 4px solid rgba(255,255,255,0.4);
 }
 
+div.menu-mobile{
+    display: none;
+}
+
 nav.menu-desktop ul li{
     display: block;
     margin: 15px 0;
@@ -47,6 +51,23 @@ nav.menu-desktop a.selected,nav.menu-desktop a:hover{
     opacity: 1;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .content{
     background-color: #f7f5f5;
@@ -119,5 +140,58 @@ nav.menu-desktop a.selected,nav.menu-desktop a:hover{
     padding-top: 20%;
     border-bottom: 1px solid #747575;
     
+}
+
+@media screen and (max-width: 780px){
+
+    nav.menu-desktop, .img-perfil{
+        display: none; 
+    }
+
+    header{
+        height: 50px;
+        display: block;
+        width: 100%;
+        z-index: 3;
+        padding: 0 5%;              
+    }
+
+    .main{
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+        position: none;
+        
+    }
+
+    div.menu-mobile{
+        display: block;
+    }
+
+    div.menu-mobile h2{
+        font-size: 25px;
+        padding: 8px 3%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        color: white;
+    }
+
+    .content{
+        position: initial;
+        height: 500%;
+        width: 100%;
+        display: block;
+        padding: 0 5%;
+    }
+
+    .container .pessoal img{
+        display: none;
+    }
+    
+    
+
+    
+
+
 }
 
