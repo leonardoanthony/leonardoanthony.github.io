@@ -1,0 +1,23 @@
+.top-title{
+    position: relative;
+    height: 45vh;
+    background-image: url(../images/capa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info-title{
+    color: white;
+}
+
+.info-title img{
+    height: 100px;
+}
+
+.info-title h2{
+    font-size: 36px;
+}
+
+.info-title p{
+    font-size:22px;
+}

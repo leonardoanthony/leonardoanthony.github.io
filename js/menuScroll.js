@@ -6,12 +6,6 @@ $(function(){
             $('html,body').animate({scrollTop:posicao},700); 
             link.removeClass('selected');
             $(this).addClass('selected');
-        })
-
-    
-
-
-
-        
+        })      
         
 })

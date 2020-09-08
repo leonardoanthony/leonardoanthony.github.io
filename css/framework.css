@@ -1,0 +1,42 @@
+/* Auxiliar */
+
+*{margin:0;padding: 0;box-sizing: border-box;}
+html,body{height: 100%;}
+.clear{clear: both;}
+
+.center{text-align: center;}
+.left{text-align: left;}
+.right{text-align:right;}
+
+.w20{width: 20%;}
+.w25{width: 25%;}
+.w33{width: 33%;}
+.w50{width: 50%;}
+.w100{width: 100;}
+
+.anton{font-family: 'Anton', sans-serif;}
+.open{font-family: 'Open Sans', sans-serif;}
+.oxanium{font-family: 'Oxanium', cursive;}
+
+.lighter{font-weight: lighter;}
+.bold{font-weight: bold;}
+.normal{font-weight: normal;}
+
+.middle-screen{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+@media screen and (max-width: 780px){
+
+
+    
+
+
+}
+
