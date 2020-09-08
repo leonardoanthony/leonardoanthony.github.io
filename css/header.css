@@ -7,6 +7,7 @@
 }
 
 .info-title{
+    z-index: 2;
     color: white;
 }
 
@@ -20,4 +21,32 @@
 
 .info-title p{
     font-size:22px;
+}
+
+nav.menu-desktop{
+    background-color: #eb6a2d;
+    padding: 15px 2%;
+}
+
+nav.menu-desktop li{
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+nav.menu-desktop li a{
+    color:white;
+}
+
+nav.menu-desktop li a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 780px){
+
+    .info-title{
+        width: 100%;
+        padding: 0 2%;
+    } 
+
 }
