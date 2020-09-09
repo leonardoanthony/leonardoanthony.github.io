@@ -1,0 +1,46 @@
+section.inicio{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.inicio .container {
+    position: relative;
+    min-height: 400px;
+    padding: 0 2%;
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image-inicio{
+    
+}
+
+.image-inicio img{
+    height: 300px;
+}
+
+.info-inicio{
+    max-width: 30%;
+    color: white;
+    
+}
+
+.info-inicio h2{
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 780px){
+
+    section.inicio .container .info-inicio{
+        max-width: 100%;
+        
+    }
+
+}

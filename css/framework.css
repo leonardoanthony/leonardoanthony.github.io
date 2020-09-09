@@ -6,6 +6,7 @@ html,body{height: 100%;}
 
 a{text-decoration: none;}
 
+
 .overlay{
     position: absolute;
     left: 0;
@@ -46,9 +47,9 @@ a{text-decoration: none;}
 
 @media screen and (max-width: 780px){
 
-
+    .w20,.w25,.w33,.w50{width: 100%;}
     
-
+    .left,.right{text-align:center;}
 
 }
 

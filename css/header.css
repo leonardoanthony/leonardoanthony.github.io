@@ -63,6 +63,7 @@ nav.menu-mobile ul{
     list-style-type:none;
     transform: translateX(-50%);
     top:calc(30vh + 63px);
+    z-index: 99999;
     display:none;
 }
 
