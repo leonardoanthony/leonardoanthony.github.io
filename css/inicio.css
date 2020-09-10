@@ -2,7 +2,7 @@ section.inicio{
     position: relative;
     width: 100%;
     min-height: 400px;
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/bg1.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -11,7 +11,7 @@ section.inicio{
 section.inicio .container {
     position: relative;
     min-height: 400px;
-    padding: 0 2%;
+    padding: 20px 2%;
     z-index: 3;
     display: flex;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@ section.inicio .container {
 
 .info-inicio{
     max-width: 30%;
-    color: white;
+    color: black;
     
 }
 
@@ -40,6 +40,12 @@ section.inicio .container {
 
     section.inicio .container .info-inicio{
         max-width: 100%;
+
+        
+    }
+
+    section.inicio .container .info-inicio p{
+        text-align: justify;
         
     }
 
