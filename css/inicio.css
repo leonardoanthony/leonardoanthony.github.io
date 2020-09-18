@@ -2,24 +2,21 @@ section.main{
     position: relative;
     width: 100%;
     min-height: 400px;
-    background-image: url('../images/bg2.jpg');
+    background-color:#f7f5f5;
+    /* background-image: url('../images/bg2.jpg');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 div.inicio {
     position: relative;
     height: 100%;
-    padding: 30px 2%;
+    padding: 50px 2%;
     z-index: 3;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
-
-.image-inicio{
-    
 }
 
 .image-inicio img{
@@ -28,7 +25,7 @@ div.inicio {
 
 .info-inicio{
     max-width: 30%;
-    color: white;
+    /* color: white; */
     
 }
 
@@ -42,6 +39,7 @@ div.inicio {
 .slider-content{
     position: absolute;
     display:none;
+    width: 100%;
 }
 
 @media screen and (max-width: 780px){
