@@ -1,14 +1,15 @@
-section.inicio{
+section.main{
     position: relative;
     width: 100%;
     min-height: 400px;
-    background-image: url('../images/bg1.jpg');
+    /* background-color: rgb(231, 229, 229); */
+    background-image: url('../images/bg2.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-section.inicio .container {
+div.inicio {
     position: relative;
     min-height: 400px;
     padding: 20px 2%;
@@ -28,7 +29,7 @@ section.inicio .container {
 
 .info-inicio{
     max-width: 30%;
-    color: black;
+    color: white;
     
 }
 
@@ -38,13 +39,13 @@ section.inicio .container {
 
 @media screen and (max-width: 780px){
 
-    section.inicio .container .info-inicio{
+    section.main .container .info-inicio{
         max-width: 100%;
 
         
     }
 
-    section.inicio .container .info-inicio p{
+    section.main .container .info-inicio p{
         text-align: justify;
         
     }
