@@ -37,6 +37,14 @@ div.inicio {
     padding: 20px 0;
 }
 
+.slider{
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    display:none;
+}
+
 @media screen and (max-width: 780px){
 
     section.main .container .info-inicio{
