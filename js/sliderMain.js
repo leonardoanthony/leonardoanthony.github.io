@@ -2,8 +2,7 @@ $(function(){
 
     var slider = $('.slider .slider-content');
     var indiceAtual = 0;
-    var indiceMaximo = slider.length;
-    var delay = 5000;
+    var link = $('section.menu nav ul li');
 
     initSlider();
     clickSlider()
@@ -14,17 +13,15 @@ $(function(){
     }
 
     function clickSlider(){
-        $('section.menu nav ul li').click(function(){
-
-            
+        link.click(function(){
 
             slider.eq(indiceAtual).fadeOut();
            
             indiceAtual = $(this).index();
 
-            console.log(indiceAtual)
-
             slider.eq(indiceAtual).fadeIn();
+
+            $('.menu-mobile ul').slideToggle();
             
            return false;
         })

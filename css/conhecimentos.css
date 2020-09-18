@@ -1,0 +1,5 @@
+section.main div.conhecimentos{
+    position: relative;
+    padding: 20px 2%;
+    z-index: 3;
+}

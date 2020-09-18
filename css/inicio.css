@@ -1,8 +1,7 @@
 section.main{
     position: relative;
     width: 100%;
-    min-height: 400px;
-    /* background-color: rgb(231, 229, 229); */
+    min-height: 500px;
     background-image: url('../images/bg2.jpg');
     background-position: center;
     background-size: cover;
@@ -11,8 +10,8 @@ section.main{
 
 div.inicio {
     position: relative;
-    min-height: 400px;
-    padding: 20px 2%;
+    height: 100%;
+    padding: 30px 2%;
     z-index: 3;
     display: flex;
     flex-wrap: wrap;

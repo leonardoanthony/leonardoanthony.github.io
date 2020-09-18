@@ -80,6 +80,11 @@ nav.menu-mobile ul li a{
     text-transform: uppercase;
 }
 
+.selected{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 
 
 @media screen and (max-width: 780px){
