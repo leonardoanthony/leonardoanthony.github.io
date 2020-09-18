@@ -1,7 +1,7 @@
 section.main{
     position: relative;
     width: 100%;
-    min-height: 500px;
+    min-height: 400px;
     background-image: url('../images/bg2.jpg');
     background-position: center;
     background-size: cover;
@@ -45,6 +45,12 @@ div.inicio {
 }
 
 @media screen and (max-width: 780px){
+
+    section.main{
+      
+        min-height: 500px;
+       
+    }
 
     section.main .container .info-inicio{
         max-width: 100%;
