@@ -1,1 +1,12 @@
 
+div.conhecimentos {
+    position: relative;
+    height: 100%;
+    padding: 50px 2%;
+    z-index: 3;
+}
+
+div.title-habilidade {
+    margin: 0 auto;
+    background-color: green;
+}
