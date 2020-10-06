@@ -1,7 +1,8 @@
 section.main{
     position: relative;
     width: 100%;
-    min-height: 400px;
+    height: 40vh;
+    /* min-height: 400px; */
     background-color:#f7f5f5;
     /* background-image: url('../images/bg2.jpg');
     background-position: center;
@@ -12,7 +13,7 @@ section.main{
 div.inicio {
     position: relative;
     height: 100%;
-    padding: 50px 2%;
+    padding: 20px 2%;
     z-index: 3;
     display: flex;
     flex-wrap: wrap;
