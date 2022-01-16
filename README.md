@@ -6,11 +6,19 @@
  
  *"Nenhum de nós é mais forte do que todos nós juntos"*
  
- Para minha própria organização e para que vocês possam contribuir também, estarei deixando o que me falta fazer. Toda ajuda será vem vinda.
+ Para minha própria organização e para que vocês possam contribuir também, estarei deixando o que me falta fazer. Toda ajuda será bem-vinda.
  
- - [ ] Mobile
-    * acrescentar menu mobile;
- - [ ] Conteudo
-    * Só tem o primeiro tópico, ainda vou colocar os demais;
- - [ ] Estilo
-    * Talvez acrescente algumas animações, aceito sujestões;
+- [ ] Home 
+   - [ ] Header
+   - [ ] Sobre
+   - [ ] Experiencias
+   - [ ] Formações
+         - [ ] Skills
+         - [ ] Ferramentas
+         - [ ] Cursos
+   - [ ] Contato 
+   - [ ] Footer
+- [ ] Projetos Pessoais
+- [ ] Projetos Profissionais
+
+- [ ] Mobile

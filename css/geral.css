@@ -1,0 +1,36 @@
+:root{
+    --white: rgb(245, 245, 245);
+    --orange:#ff8c00;
+    --green: #22ee00;
+    --black: #0e091b; 
+    --violet: #8a2be2;
+    --gray: #110e1b;
+    --red: #dc143c;
+    --exo: "Exo 2";
+    --mono: monospace;
+    --shadowViolet:  0px 0px 50px 10px var(--violet);
+    --shadowWhite:  0px 0px 100px 10px var(--white);
+    --shadowBlack:  0px 0px 100px 10px var(--black);
+    --shadowRed:  0px 0px 100px 10px var(--red);
+    --shadowOrange:  0px 0px 100px 10px var(--orange);
+}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html,body{height: 100%; background-color: var(--black);}
+a{text-decoration: none;}
+img{display: block; max-width: 100%;}
+ul{list-style-type: none;}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-1{
+    flex: 1;
+}

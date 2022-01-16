@@ -1,0 +1,407 @@
+/*? HEADER  */
+
+header{
+    padding: 20px 0;
+    background-color: var(--black);
+    color: var(--white);
+    border-bottom: 3px solid var(--violet);
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+}
+
+.logo h2{
+    font-family: var(--exo); 
+}
+.logo h2 span{
+    color: var(--violet);
+}
+
+.menu ul li a{
+    font-family: var(--mono);
+    font-size: 1.2em;
+    color: var(--white);
+}
+
+.sub-menu{
+    display: none;
+}
+
+/*? MAIN  */
+
+section.main{
+    background-color: var(--black);
+    padding: 150px 0 75px 0;
+}
+
+i.scroll-down{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    right: 50%;
+    font-size: 25px;
+    padding-top: 2.5px;
+    animation: up-down 1.5s alternate-reverse infinite;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+
+.main .intro h2{
+    font-family: var(--exo);
+    color: white;
+    font-size: 2em;
+}
+
+.emoji{
+    color: inherit;
+}
+
+.main .intro p{
+    font-family: var(--mono);
+    color: white;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.intro a, .courses > a{
+    margin-top: 20px;
+    background-color: var(--violet);
+    font-family: monospace;
+    padding: 1em;
+    color: var(--white);
+    font-size: 1.2em;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.intro a:hover, .courses > a:hover{
+    background-color: var(--black);
+    box-shadow: var(--shadowViolet);
+    border: 1px solid var(--violet);
+}
+
+
+.animacao{
+    width:60%;
+    position: relative;
+    /* background-color: red; */
+}
+
+.animacao svg{
+    position: relative;
+    left: 50px;
+    /* background-color: blue; */
+}
+
+
+
+/*? ABOUT */
+
+section.about{
+    padding: 100px 0;
+    background-color: var(--gray);
+}
+
+.avatar img{
+    box-shadow: var(--shadowViolet);
+    border-radius: 50%;
+    border: 2px solid var(--white);
+}
+
+.about-text p{
+    color: var(--white);
+    font-family: var(--mono);
+    font-size: 1.2em;
+}
+
+/*? Experiences  */
+
+section.experiences{
+    padding: 180px 0;
+    min-height: 500px;
+    background-color: var(--black);
+}
+
+.title{
+    text-align: center;
+    font-family: var(--exo);
+    color: var(--white);
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.exp-container{
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* justify-content: center; */
+}
+
+.exp-single{
+    color: var(--white);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--gray);
+    border-radius: 10px;
+    font-family: var(--exo);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.exp-single:hover{
+    box-shadow: var(--shadowViolet);
+    height: 250px;
+}
+
+.exp-single:hover .exp-info{
+    display: block;
+    
+}
+
+.exp-info{
+    display: none;
+    margin-top: 1em;
+    transition: 1s;
+}
+
+.social-media-exp{
+    margin-top: 30px;
+}
+
+.social-media-exp a{
+    border: 1px solid var(--white);
+    padding: 10px;
+    color: white;
+}
+
+.social-media-exp a:hover{
+    border: 1px solid var(--violet);
+    padding: 10px;
+    color: var(--violet);
+}
+
+/*? KNOWLEDGES  */
+
+section.knowledges{
+    padding: 60px 0;
+    background-color: var(--gray);
+}
+
+.knowledges .flex{
+    align-items: flex-start;
+}
+
+i.fa.fa-hashtag{
+    color: var(--violet);
+}
+
+.skills h2,.courses h2{
+    padding: 25px 0;
+}
+
+.skills{
+    width: 40%;
+}
+
+.skill-container{
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-single{
+    width: 70px;
+    height: 70px;
+    background-color: var(--violet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: calc(100% / 5 - 25px);
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.skill-single:hover{
+    background-color: var(--black);
+    box-shadow: var(--shadowViolet);
+}
+
+.skill-single i{
+    font-size: 3em;
+}
+
+.skill-single:hover i{
+    color: var(--white);
+}
+
+.skill-locked{
+    background-color: var(--black);
+}
+
+.skill-locked:hover{
+    background-color: none;
+    box-shadow: none;
+    color: black;
+}
+
+.skill-locked:hover i{
+    color: black;
+}
+
+
+.line{
+    border-right: 4px solid var(--violet);
+    height: 600px;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+}
+
+.single-course{
+    margin: 0 auto;
+    padding: 10px 50px;
+    color: white;
+    background-color: var(--black);
+    border: 1px solid var(--violet);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+}
+
+
+.single-course h3{
+    font-family: var(--exo);
+    margin: 10px 0;
+    max-width: 80%;
+}
+
+
+.single-course p,
+.single-course a{
+    font-family: var(--mono);
+    font-size: 1.1em;
+    margin-bottom: .5em;
+}
+
+.single-course a{
+    color: var(--violet);
+    text-decoration: underline;
+}
+
+.course-time{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.courses > a{
+    max-width: 120px;
+}
+
+/*? CONTACT  */
+
+section.contact{
+    padding: 100px 0;
+    background-color: var(--black);
+}
+
+.contact .flex{
+    align-items: center;
+}
+
+.social-medias{
+    margin: 0 auto;
+}
+
+
+
+.social-medias a{
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 10px 10px;
+    font-size: 2.5em;
+    border-radius: 10px;
+    min-width: 100px;
+    text-align: center;
+    transition: .3s;
+
+}
+
+.social-medias a i{
+    position: relative;
+    width: 100px;
+    top: 5px;
+}
+
+#whatsapp:hover{
+    border: 1px solid #34da52;
+    background-color: #34da52;
+}
+
+#email:hover{
+    border: 1px solid var(--red);
+    background-color: var(--red);
+}
+
+#instagram:hover{
+    border: 1px solid #DD2A7B;
+    background: linear-gradient(34deg, rgba(251,133,41,1) 0%, rgba(254,218,119,1) 25%, rgba(221,42,123,1) 50%, rgba(129,52,175,1) 75%, rgba(81,91,212,1) 100%);
+}
+
+#linkedin:hover{
+    border: 1px solid #0961b8;
+    background-color: #0961b8;
+}
+
+#github:hover{
+    border: 1px solid #bbb;
+    background-color: #bbb;
+}
+
+/*? FOOTER */
+
+footer{
+    padding: 30px 0 ;
+    background-color: var(--gray);
+    color: #ccc;
+    font-family: var(--mono);
+    font-size: 1.2em;
+}
+
+footer .links a{
+    color: #ccc;
+    font-size: 1em;
+}
+
+.logo-footer{
+    text-align: center;
+}
+
+.logo-footer img{
+    width: 1.5em;
+    margin: 0 auto;
+}
+
+
+
+
+
