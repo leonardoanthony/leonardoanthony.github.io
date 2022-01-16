@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+
+    .flex{
+        flex-direction: column ;
+        align-items: center;
+    }
+    section.main{
+        padding: 120px 0 10px 0;
+        text-align: center;
+    }
+
+    i.scroll-down{
+        right: 45%;
+    }
+    .menu{
+        display: none;
+    }
+    
+
+    .intro{
+        margin-top: 40px;
+        z-index: 2;
+    }
+
+    .animacao{
+        /* background-color: red; */
+        top: -200px;
+        width: 100%;
+    }
+
+    .animacao svg{
+        position: initial;
+        margin: 0 auto;
+        opacity: .4;
+        z-index: 1;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .skills {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill-container{
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .skill-single{
+        width: calc(50% -10px);
+    }
+
+    .knowledges .flex {
+        align-items: center;
+    }
+
+    .social-medias a{
+        display: block;
+        margin-bottom: 10px;
+    }
+}

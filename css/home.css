@@ -239,6 +239,7 @@ i.fa.fa-hashtag{
 
 .skill-single i{
     font-size: 3em;
+    color: #ccc;
 }
 
 .skill-single:hover i{
@@ -343,7 +344,6 @@ section.contact{
     min-width: 100px;
     text-align: center;
     transition: .3s;
-
 }
 
 .social-medias a i{
