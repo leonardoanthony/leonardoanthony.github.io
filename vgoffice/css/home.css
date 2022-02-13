@@ -1,0 +1,246 @@
+/** HEADER  */
+
+header{
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+    background-color: #fff;
+}
+
+header > .row{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logomarca img{
+    max-width: 90px;
+}
+
+header nav ul li a{
+    color: #aaa;
+    margin-left: 20px;
+}
+
+header nav ul li a:hover{
+    color: #000;
+}
+
+
+/** BANNER-MAIN  */
+
+section.banner-main{
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/detaque.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay-blue{
+    background-color: rgba(82, 82, 247, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.banner-content{
+    z-index: 2;
+    max-width: 33%;
+    padding-top: 120px;
+}
+
+.banner-content h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner-content button{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.banner-content button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/** DESTAQUES  */
+
+section.destaque-slider{
+    display: flex;
+}
+
+.destaque-info,
+.destaque-image{
+    width: 50%;
+}
+
+.text-container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.destaque-info,
+.sobre-info{
+    padding: 40px 0;
+}
+
+.title{
+    color: blue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.destaque-categoria,
+.sobre-subtitulo{
+    font-weight: bold;
+    color: #aaa;
+    margin-bottom: 1em;
+}
+
+.destaque-texto,
+.sobre-info{
+    margin-bottom: 3em;
+}
+
+.destaque-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    justify-content: center;
+}
+
+.tags{
+    width: calc(50% - 10px);
+    display: flex;
+    align-items: center;
+}
+
+.tags i{
+    width: 30px;
+    font-size: 1.3em;
+    color: #aaa;
+}
+
+.btn{
+    margin: 30px auto;
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+/** IMOVEIS  */
+
+section.imoveis{
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+section.imoveis h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+section.imoveis > .row{
+    justify-content: space-between;
+}
+
+.imoveis-venda,
+.imoveis-aluguel{
+    width: 33%;
+}
+
+.imoveis-titulo{
+    font-size: 1.3em !important;
+    padding: 15px 0;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.imoveis-texto{
+    text-align: justify;
+    font-size: .9em;
+}
+
+a.btn{
+    line-height: 50px;
+}
+
+/** SOBRE  */
+
+.sobre-image,
+.sobre-info{
+    width: 50%;
+}
+
+/** CONTATO  */
+
+section.contato{
+    padding: 60px 0;
+}
+
+section.contato .title{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section.contato .container{
+    max-width: 50%;
+}
+
+.contact-info{
+    display: flex;
+    gap: 10px;
+}
+
+/** FOOTER  */
+
+footer{
+    color: white;
+    padding: 20px 0;
+    background-color: rgba(82, 82, 247, 0.678);
+}
+
+footer > .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+}
+
+.copy a{
+    text-decoration: underline;
+}
+
+.links a{
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+
+
+

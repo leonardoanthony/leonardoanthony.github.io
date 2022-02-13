@@ -1,0 +1,67 @@
+:root{
+    --white: rgb(245, 245, 245);
+    --orange:#ff8c00;
+    --green: #22ee00;
+    --black: #121214;
+    --violet: #8a2be2;
+    --gray: rgb(224, 224, 224);
+    --red: #dc143c;
+    --exo: "Exo 2";
+    --mono: monospace;
+    --montserrat: 'Montserrat', sans-serif;
+    --shadowViolet:  0px 0px 100px 10px var(--violet);
+    --shadowWhite:  0px 0px 100px 10px var(--white);
+    --shadowBlack:  0px 0px 100px 10px var(--black);
+    --shadowRed:  0px 0px 100px 10px var(--red);
+    --shadowOrange:  0px 0px 100px 10px var(--orange);
+}
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: var(--montserrat);}
+html,body{height: 100%;}
+a{text-decoration: none;}
+img{display: block; max-width: 100%;}
+ul{list-style-type: none;}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.row{
+    display: flex;
+    gap: 10px;
+}
+
+.col20{
+    width: 20%;
+    gap: 1;
+}
+
+.col25{
+    width: 25%;
+    gap: 1;
+}
+
+.col33{
+    width: 33%;
+    gap: 1;
+}
+
+.col50{
+    width: 50%;
+    gap: 1;
+}
+
+
+
+@media (max-width:768px) {
+    .row{
+        flex-direction: column;
+        gap: 0;
+        
+    }
+    .col20,.col25,.col33,.col50{
+        width: 100%;
+        
+    }
+
+    
+}
